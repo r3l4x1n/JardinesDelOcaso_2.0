@@ -7,7 +7,7 @@
   <title>Formulario Citas</title>
   <link rel="stylesheet" href="./css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
@@ -15,32 +15,33 @@
   <div class="text-center">
     <img src="./img/iconPq.png" class="rounded" alt="...">
   </div>
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
-          <ul class=" nav navbar-nav  mx-auto ">
-            <li class="nav-item ">
-              <a class="nav-link active" href="./index.html">Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./formulario.html">Agenda Cita</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./testimonios.html">Testimonios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./agenda.html">Agenda</a>
-            </li>
-          </ul>
-        </div>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class=" nav navbar-nav  mx-auto ">
+          <li class="nav-item ">
+            <a class="nav-link active" href="./index.html">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./formulario.html">Agenda Cita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./testimonios.html">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./agenda.html">Agenda</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
   <!---fin navbar-->
-<h1 class="text-center">Agendar Citas</h1>
+  <h1 class="text-center">Agendar Citas</h1>
   <!--formulario citas-->
   <section id="formulario">
     <div class="container mt-3">
@@ -53,7 +54,8 @@
                   <span class="input-group-text" id="basic-addon1">
                     <i class="bi bi-person-circle"></i>
                   </span>
-                  <input type="text" class="form-control" placeholder="Nombre y Apellido" id="usuario" pattern=".{10,50}" required>
+                  <input type="text" class="form-control" placeholder="Nombre y Apellido" id="usuario"
+                    pattern=".{10,50}" required>
                 </div>
               </div>
               <div class="col-12 col-md-6">
@@ -109,7 +111,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1" >
+                  <span class="input-group-text" id="basic-addon1">
                     <i class="bi bi-file-earmark-person-fill"></i>
                   </span>
                   <input type="number" class="form-control" placeholder="Numero De Cedula" aria-label="Username"
@@ -126,7 +128,23 @@
     </div>
   </section>
   <!--fin formulario citas-->
-  
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <hr>
+    <div class="social-media text-center">
+      <a href="https://www.facebook.com/profile.php?id=100093543169112"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/JardinesDeOcaso"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.instagram.com/jardinesdelocaso/"><i class="bi bi-instagram"></i></a>
+    </div>
+    <p class="text-center">Todos los derechos reservados &copy; Jardines Del Ocaso</p>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="./js/formulario.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
