@@ -19,12 +19,14 @@ body {
     background-color: #f2f0e4;
 }
 
-#botonagenda{
-    color: #776e52;
+#botonagenda, #eliminar, #actualizar{
+    color: #756c52;
     background-color: #f2f0e4;
+    
 }
 
-nav :::before {
-    color: #776e52;
+.nav-item :hover{
+    font-size: 30px;
+    border-bottom: 5px solid #756c52;
 }
 
