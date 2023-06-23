@@ -91,5 +91,58 @@ footer {
     background-color: #0069d9;
   }
 
+  .testimonio-caja {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .testimonio-caja img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 2px solid;
+  }
+  
+  .testimonio-caja.right {
+    justify-content: flex-end;
+  }
+  
+  .testimonio-caja.left {
+    justify-content: flex-start;
+    display: flex;
+
+  }
+  
+  .testimonio-caja.right img {
+    margin-right: 0;
+    border: 2px solid;
+  }
+  
 
 
+  .testimonio-caja.left {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .testimonio-caja.left img {
+    order: 2;
+    margin-left: 20px;
+    border: 2px solid;
+  }
+  
+  .testimonio-caja.left p {
+    order: 1;
+  }
+  
+  .testimonio-caja p {
+    padding: 10px;
+    border: 1px solid #686666;
+    border-radius: 5px;
+    margin: 5px;
+
+  }
